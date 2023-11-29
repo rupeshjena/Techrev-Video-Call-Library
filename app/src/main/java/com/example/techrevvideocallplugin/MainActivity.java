@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        TechRevIdVerificationWrapper.
         Intent it = getIntent();
         if (it != null && it.hasExtra("API_BASE_URL")) {
             Constants.API_BASE_URL = it.getStringExtra("API_BASE_URL");

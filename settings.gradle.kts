@@ -12,6 +12,7 @@ dependencyResolutionManagement {
         jcenter()
         mavenCentral()
         maven (url = "https://sdk.withpersona.com/android/releases")
+        maven (url = "https://jitpack.io")
     }
 }
 

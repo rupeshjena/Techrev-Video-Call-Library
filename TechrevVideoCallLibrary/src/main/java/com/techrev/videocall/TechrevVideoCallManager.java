@@ -12,7 +12,7 @@ import com.example.techrevvideocallplugin.MainActivity;
 
 public class TechrevVideoCallManager {
 
-    private void connectToRoom(Context context, String baseURL, String token, String roomName, String authToken,
+    public static void connectToRoom(Context context, String baseURL, String token, String roomName, String authToken,
                                String passcode, int memberType, String userMeetingIdentifier, String maxImageCaptureLimit,
                                String requestID, int isRecordingEnabled, String endDate, String startDate, String duration,
                                String userId, boolean isCoSigner, String userDetails, String requestParticipantId, String clientId) {
