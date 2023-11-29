@@ -10,7 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         jcenter()
-        //mavenCentral()
+        mavenCentral()
         maven (url = "https://sdk.withpersona.com/android/releases")
     }
 }
