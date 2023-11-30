@@ -111,8 +111,6 @@ dependencies {
     //implementation 'com.github.TutorialsAndroid:progressx:v6.0.19' //required for kalertdialog lib
     /*Added by Rupesh*/ // To use custom dialog in app
 
-    /*Testing TechrevVideoCall library*/
-    implementation ("com.github.rupeshjena:Techrev-Video-Call-Library:1.0.2")
-    /*Testing TechrevVideoCall library*/
-
 }
+
+
